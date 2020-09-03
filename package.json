@@ -1,0 +1,16 @@
+{
+  "name": "opinion-flexr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.26.10",
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "start": "parcel src/views/index.pug ",
+    "build": "parcel build src/views/index.pug --no-source-maps"
+  }
+}

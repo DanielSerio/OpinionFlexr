@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(property="og:title" content="OpinionFlexr")
+    meta(property="og:description" content="Flex your negative opinions.")
+    meta(property="og:url" content="https://opinionflexr.com")
+    meta(name="twitter:card" content="summary")
+    meta(property="og:OpinionFlexr" content="OpinionFlexr")
+    title OpinionFlexr
+    link(rel="stylesheet", href="../scss/main.scss")
+  body
+    include ./partials/header.pug
+    main
+      .container
+        include ./partials/who.pug
+        include ./partials/what.pug
+        include ./partials/form.pug
+        include ./partials/where.pug
+        include ./partials/when.pug
+        include ./partials/why.pug
+    include ./partials/footer.pug
+
+    script(src="../index.ts")

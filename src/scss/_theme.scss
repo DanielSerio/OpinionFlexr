@@ -1,0 +1,18 @@
+@import './vars';
+
+html {
+  background-color: #121212;
+  color: $color; 
+}
+
+textarea {
+  color: inherit;
+}
+
+a,
+a:visited { color: $color-primary; }
+
+::selection {
+  background: $color-primary;
+  color: $color-primary-contrast;
+}

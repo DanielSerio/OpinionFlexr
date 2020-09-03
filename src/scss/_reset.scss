@@ -1,0 +1,47 @@
+html, body, header, footer, main, div, article, section, form,
+p, b, a, small, h1, h2, h3, h4, h5, h6, textarea, button {
+  box-sizing: border-box;
+
+  *:before,
+  *:after { box-sizing: border-box; }
+} 
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+form { text-align: center; }
+
+textarea,
+footer { text-align: left; }
+
+textarea,
+button {
+  outline: none;
+  appearance: none;
+  border: 0.1rem solid;
+  color: inherit;
+  font-size: inhert;
+  font-family: inherit;
+  padding: 0.5em;
+  border-radius: #{(3/16)}rem;
+}
+
+textarea { 
+  resize: vertical; 
+  width: 100%;
+  letter-spacing: 0.1ch;
+  line-height: 1.65;
+}
+
+ul {
+  margin: 0;
+  padding: 0.5rem 0 3rem 1rem;
+  list-style: circle;
+}
+
+li {
+  padding-bottom: 0.5rem;
+}

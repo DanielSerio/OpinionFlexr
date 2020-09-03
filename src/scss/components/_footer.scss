@@ -1,0 +1,22 @@
+@import '../vars';
+
+footer.footer {
+  text-align: right;
+
+  .footer-container {
+    color: rgba(#555, 0.6);
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  small { 
+    line-height: 3; 
+    
+    a {
+      color: mix(#121212, rgba($color-primary, 0.75));
+      transition: color 0.1s ease-in;
+
+      &:hover { color: $color-primary; }
+    }
+  }
+}

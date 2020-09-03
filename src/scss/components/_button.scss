@@ -1,0 +1,20 @@
+@import '../vars';
+
+.form > footer > button {
+  background-color: transparent;
+  color: $color-primary;
+  border-color: $color-primary;
+  font-weight: bold;
+  transition: all 0.1s ease-in;
+
+  &:hover {
+    border-color: $color-primary;
+    background-color: $color-primary;
+    color: $color-primary-contrast;
+  }
+
+  &:active {
+    border-color: darken($color-primary, 8%);
+    background-color: darken($color-primary, 8%);
+  }
+}

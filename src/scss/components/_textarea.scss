@@ -1,0 +1,12 @@
+@import '../vars';
+
+.form > textarea {
+  border-color: $color-muted;
+  background-color: rgba(#333, 0.125);
+  min-height: 200px;
+
+  &:focus { 
+    border-color: $color-primary; 
+    background-color: transparent;
+  }
+}

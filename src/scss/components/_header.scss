@@ -1,0 +1,10 @@
+@import '../vars.scss';
+
+header.header {
+  font-size: calc(0.75rem + 2vmin);
+  margin-bottom: 2rem;
+
+  .logo {
+    span { color: $color-primary; }
+  }
+}
